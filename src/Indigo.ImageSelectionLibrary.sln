@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indigo.ImageSelection.Core", "Indigo.ImageSelection.Core\Indigo.ImageSelection.Core.csproj", "{6ADD7C8D-F1E0-4B09-9496-EAAF06968D2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{55375FC2-6DBC-4D43-A966-EA34E52CAD7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSelectionTests", "ImageSelectionTests\ImageSelectionTests.csproj", "{FFBAFA19-A18B-47A9-816D-A90B6C7D6F63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ADD7C8D-F1E0-4B09-9496-EAAF06968D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADD7C8D-F1E0-4B09-9496-EAAF06968D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADD7C8D-F1E0-4B09-9496-EAAF06968D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADD7C8D-F1E0-4B09-9496-EAAF06968D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBAFA19-A18B-47A9-816D-A90B6C7D6F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBAFA19-A18B-47A9-816D-A90B6C7D6F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBAFA19-A18B-47A9-816D-A90B6C7D6F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBAFA19-A18B-47A9-816D-A90B6C7D6F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFBAFA19-A18B-47A9-816D-A90B6C7D6F63} = {55375FC2-6DBC-4D43-A966-EA34E52CAD7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F3D5191-07B2-43B0-97B8-48D563A56FFD}
+	EndGlobalSection
+EndGlobal

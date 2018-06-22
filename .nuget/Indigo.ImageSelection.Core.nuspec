@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Indigo.ImageSelection.Core</id>
+    <version>$version$</version>
+    <title>Indigo.ImageSelection.Core</title>
+    <authors>Indigo Books and Music</authors>   
+    <description>Library for Image Export</description> 
+  </metadata>
+  <files>
+    <file src="*" exclude="*" />
+    <file src="..\build\buildinfo.xml" />		
+    <file src="..\src\Indigo.ImageSelection.Core\bin\Release\netcoreapp2.0\*" target="lib\netcoreapp2.0" />	
+  </files>
+</package>
